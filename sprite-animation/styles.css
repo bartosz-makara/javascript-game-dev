@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.canvas1 {
+  width: 600px;
+  height: 600px;
+  margin: 124px;
+  border: 2px solid black;
+  overflow: hidden;
+}
+
+.controls {
+  position: absolute;
+  z-index: 10;
+  top: 50px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.controls,
+select,
+option {
+  font-size: 25px;
+}
